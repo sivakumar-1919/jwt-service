@@ -16,7 +16,7 @@ import com.sathya.rest.dto.LoginDTO;
 import com.sathya.rest.entity.Registration;
 import com.sathya.rest.repository.RegistrationRepository;
 
-@CrossOrigin(origins = { "http://localhost:5173" , "https://react-spicy-food.vercel.app/"})
+@CrossOrigin(origins = {"http://localhost:5173" , "https://react-spicy-food.vercel.app"})
 @RestController
 public class JWTController {
 
