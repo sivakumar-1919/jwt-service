@@ -60,6 +60,7 @@ public class JWTController {
             response.setToken(token);
             response.setName(user.get().getName());
             response.setEmail(user.get().getEmail());
+            response.setUserId(user.get().getId().longValue());  // longvalue() is the conversion of integer to long
 
             return ResponseEntity.ok(response);
         }

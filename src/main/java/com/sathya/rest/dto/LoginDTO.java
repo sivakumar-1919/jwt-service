@@ -16,5 +16,6 @@ public class LoginDTO {
 	    // response fields
 	    private String token;
 	    private String name;
+	    private Long userId;
 
 }
